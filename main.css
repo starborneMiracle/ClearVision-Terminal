@@ -28,7 +28,7 @@ font-weight:400;
 font-family:var(--font-primary)
 }
 :is(.theme-dark,.theme-light):not(.platform-osx) .leading_c38106::before{
-content:"ClearVision";
+content:"i ate a big rock";
 position:static;
 margin-left:10px;
 font-size:16px;
@@ -38,7 +38,7 @@ order:2;
 filter:drop-shadow(0 0 5px var(--hsl-main-color))
 }
 :is(.theme-dark,.theme-light):not(.platform-osx) .leading_c38106::after{
-content:"7.0.1";
+content:"tasty";
 position:static;
 margin-top:-5px;
 margin-left:5px;
@@ -432,7 +432,7 @@ box-shadow:none
 background:hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.4))
 }
 .chatHeaderBar_dc83f5{
-background:rgba(0,0,0,0)
+background:rgba(0,0,0,128)
 }
 .role_b4b2c3{
 background:hsl(from var(--custom-role-label-color) h s l/0.2)
@@ -1763,7 +1763,7 @@ background:var(--hsl-popout-shading);
 box-shadow:none
 }
 .header_ab6641{
-background:rgba(0,0,0,0)
+background:rgba(0,0,0,128)
 }
 .channelHeader__35a7e{
 background:hsl(from var(--hsl-main-color) h s l/0.8);
