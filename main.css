@@ -20,7 +20,7 @@ opacity:.66
 
 }
 .info__2debe::after{
-content:"i ate a big rock" " " "tasty";
+content:"ClearVision" " " "7.0.1";
 color:var(--text-muted);
 font-size:12px;
 line-height:1.3333333333;
@@ -28,7 +28,7 @@ font-weight:400;
 font-family:var(--font-primary)
 }
 :is(.theme-dark,.theme-light):not(.platform-osx) .leading_c38106::before{
-content:"i ate a big rock";
+content:"ClearVision";
 position:static;
 margin-left:10px;
 font-size:16px;
@@ -38,7 +38,7 @@ order:2;
 filter:drop-shadow(0 0 5px var(--hsl-main-color))
 }
 :is(.theme-dark,.theme-light):not(.platform-osx) .leading_c38106::after{
-content:"tasty";
+content:"7.0.1";
 position:static;
 margin-top:-5px;
 margin-left:5px;
@@ -596,7 +596,7 @@ background:rgba(0,0,0,0)
 }
 .replying__5126c{
 --background-mentioned: #ff00ff;
---background-mentioned-hover: #880088 !important;
+--background-mentioned-hover: #880088;
 background:var(--background-mentioned)
 }
 .replying__5126c:hover,.replying__5126c .selected__5126c{
@@ -616,7 +616,7 @@ background-color:var(--hsl-hover-color)
 }
 .mentioned__5126c{
 --background-mentioned: #ff00ff;
---background-mentioned-hover: #0000ff;
+--background-mentioned-hover: #880088;
 background:var(--background-mentioned)
 }
 .mentioned__5126c:before{
